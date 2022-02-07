@@ -14,7 +14,7 @@
 }
 html,body{
   scroll-behavior: smooth !important;
- 
+ overflow-x: hidden;
 }
 body{
   background-color: #232323;
@@ -252,6 +252,10 @@ body{
 }
 .text-pro{
   text-align: justify;
+}
+
+.promotion-text{
+  padding: 50px 20px 100px 20px;
 }
 
 .promotion-parent {

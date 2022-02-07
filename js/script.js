@@ -28,3 +28,36 @@ $('#slide-jackpot-carousel').owlCarousel({
   }
 
 
+  
+
+  $('#slide-promotion-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay: false,
+    dots: false,
+    autoplayTimeout: 2000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 3
+        }
+    }
+  })
+  
+  var x_owl = $('#slide-promotion-carousel');
+  x_owl.owlCarousel();
+  function goToNext() {    
+      x_owl.trigger('next.owl.carousel');
+  }
+  function goToPrev() {    
+      x_owl.trigger('prev.owl.carousel');
+  }
+
+
+
