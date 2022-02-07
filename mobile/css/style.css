@@ -1,0 +1,364 @@
+
+@font-face {
+  font-family: anakotmai;
+  src: url(../fonts/anakotmai-bold.eot);
+  src: url(../fonts/anakotmai-bold.woff);
+  src: url(../fonts/anakotmai-light.eot);
+  src: url(../fonts/anakotmai-light.woff);
+  src: url(../fonts/anakotmai-medium.eot);
+  src: url(../fonts/anakotmai-medium.woff);
+}
+*,html,body{
+  box-sizing: border-box;
+  font-family: 'anakotmai', sans-serif !important;
+}
+html,body{
+  scroll-behavior: smooth !important;
+ 
+}
+body{
+  background-color: #232323;
+}
+.carousel-control-next, .carousel-control-prev {
+  background: transparent;
+  border: none;
+}
+.menu-bar{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: -4px;
+}
+
+.bg-main{
+  background-image: url(../img/BG-web.PNG);
+  background-size: cover;
+}
+.bg-game{
+  background-image: url("../img/GameBar.png");
+  width: 100%;
+  height: 1700px;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.centered-logo {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.centered-bottom{
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+}
+.icon-menu{
+  min-width: 28px;
+  width: 28px;
+  height: 28px;
+}
+
+.menu-main{
+  display: flex;
+  background: #0400013d;
+  border-radius: 50px;
+  padding: 0px 15px;
+  align-items: center;
+}
+.menu-main a{
+  color: #fff;
+  font-size: 22px;
+}
+.menu-main a:hover{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.w-90{
+  width: 90%;
+}
+
+.w-80{
+  width: 80% ;
+}
+.test{
+  width: 70px;
+}
+.game-logo{
+  position: absolute;
+  top: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.logo-game{
+  width: 110px;
+  cursor: pointer;
+}
+.text-description{
+  color: #fff;
+  line-height: 11px;
+  margin-top: 26px;
+  text-align: justify;
+  font-size: 2vw;
+  text-justify: inter-word;
+  margin-top: 9%;
+
+}
+
+.login-signup-img{
+  width: 160px;
+}
+.content-main{
+  background: #232323;
+}
+.container-fluid{
+  padding: 0px 15%;
+}
+.login-signup{
+  z-index: 99;
+}
+#circle {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  top: -1px;
+}
+#circle:after {
+  width: 100%;
+  height: 145px;
+  background: #0000007a;
+  border-radius: 50%;
+  display: block;
+  content: '';
+  position: absolute;
+  top: -114px;
+}
+.slot-gift{
+  position: absolute;
+  left: 9%;
+}
+.game-list{
+  margin-top: 14%;
+}
+.game-list img{
+  cursor: pointer;
+}
+.slide-jackpot{
+  margin-top: 22%;
+}
+.center-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-bar{
+  padding-bottom: 18%;
+}
+.footer{
+  margin-top: -17%;
+  margin-bottom: 18%;
+}
+
+.footer-menu {
+  position: absolute;
+  top: 64%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+}
+.footer-menu a {
+  color: #fff;
+  line-height: 5px;
+  font-size: 1vw;
+}
+.footer-menu a:hover{
+  color: rgba(255, 255, 255, 0.493);
+}
+.line {
+  cursor: pointer;
+  position: fixed;
+  bottom: 14%;
+  right: 0;
+  z-index: 1;
+  width: 29%;
+  text-align: end;
+}
+
+#login-signup-group{
+  cursor: pointer;
+  position: fixed;
+  bottom: 0%;
+  z-index: 1;
+  width: 100%;
+  background-color: #26000c;
+  border-top: 1px solid #ffd400;
+  border-bottom: 1px solid #ffd400;
+}
+.menuBar-new{
+  height: 150px;
+}
+.logo-mobile{
+  height: 70px;
+}
+.game-sub {
+  background-color: #232323;
+  margin-top: 30%;
+  height: 70px;
+}
+
+.logo-game {
+  width: 70px;
+  }
+
+  .login-all {
+    background: #0000007a;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.text-login {
+  background: #dfdfdf;
+  border-radius: 20px 20px 0px 0px;
+  padding: 15px 0px 10px;
+}
+
+.promotion {
+  margin-bottom: 102px;
+  margin-top: 15px;
+  background: rgba(0, 0, 0, 0.48);
+  border-radius: 20px;
+  padding: 20px;
+}
+.text-description-pro{
+  color: #fff;
+}
+.color-yellow{
+  color: #ffd400;
+}
+.text-pro{
+  text-align: justify;
+}
+
+.promotion-parent {
+  display: block;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-rows: repeat(auto-fill, minmax(20%, 1fr));
+  text-align: center;
+
+  }
+  
+  .promotion-div1 { grid-area: 1 / 1 / 2 / 2; }
+  .promotion-div2 { grid-area: 1 / 2 / 2 / 3; }
+  .promotion-div3 { grid-area: 1 / 3 / 2 / 4; }
+  .promotion-div4 { grid-area: 2 / 1 / 3 / 2; }
+  .promotion-div5 { grid-area: 2 / 2 / 3 / 3; }
+  .promotion-div6 { grid-area: 2 / 3 / 3 / 4; }
+  .promotion-div7 { grid-area: 3 / 1 / 4 / 4; }
+  
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      margin-bottom: 100px;
+      padding: 30px
+      }
+      
+      .div1 { grid-area: 1 / 1 / 2 / 2; }
+      .div2 { grid-area: 1 / 2 / 2 / 3; }
+      .div3 { grid-area: 1 / 3 / 2 / 4; }
+      .div4 { grid-area: 2 / 1 / 3 / 2; }
+      .div5 { grid-area: 2 / 2 / 3 / 3; }
+      .div6 { grid-area: 2 / 3 / 3 / 4; }
+      .div7 { grid-area: 3 / 1 / 4 / 2; }
+      .div8 { grid-area: 3 / 2 / 4 / 3; }
+      .div9 { grid-area: 3 / 3 / 4 / 4; }
+      .div10 { grid-area: 4 / 1 / 5 / 2; }
+      .div11 { grid-area: 4 / 2 / 5 / 3; }
+      .div12 { grid-area: 4 / 3 / 5 / 4; }
+      .div13 { grid-area: 5 / 1 / 6 / 2; }
+      .div14 { grid-area: 5 / 2 / 6 / 3; }
+      .div15 { grid-area: 5 / 3 / 6 / 4; }
+
+@media (max-width: 767.98px) {  
+  .login-signup-img {
+    width: 160px !important;
+  }
+
+}
+
+@media (min-width: 600px) { 
+
+  .game-sub {
+    background-color: #232323;
+    margin-top: 31%;
+    height: 130px;
+  }
+  .logo-game {
+    width: 130px;
+  }
+  .line {
+    cursor: pointer;
+    position: fixed;
+    bottom: 18%;
+  }
+  .logo-mobile {
+    height: 135px !important;
+  }
+  .text-description {
+    color: #fff;
+    line-height: 23px;
+    text-align: justify;
+    font-size: 2vw;
+    text-justify: inter-word;
+    margin-top: 12%;
+  }
+ }
+
+
+ @media (max-width: 350.98px) {
+  .logo-game {
+    width: 60px;
+    }
+  .game-sub {
+    height: 60px;
+  }
+  .login-signup-img {
+    width: 135px !important; 
+  }
+  .footer-menu a {
+    color: #fff;
+    line-height: 0px;
+    font-size: 1vw;
+  }
+  .icon{
+    width: 10px;
+  }
+ }
+
+ 
+ @media (max-width: 320.98px) {
+  .text-description {
+    font-size: 1.6vw;
+  }
+
+ }
