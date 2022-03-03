@@ -58,5 +58,3 @@ $('#slide-jackpot-carousel').owlCarousel({
       x_owl.trigger('prev.owl.carousel');
   }
 
-
-
